@@ -1,8 +1,15 @@
+import React from "react";
+import Header from "./compontns/Layout/Header";
+import Meals from "./compontns/Meals/Meals";
+
 function App() {
   return (
-    <div>
-      <h2>Стартовый Проект</h2>
-    </div>
+    <React.Fragment>
+        <Header />
+        <main>
+            <Meals />
+        </main>
+    </React.Fragment>
   );
 }
 
